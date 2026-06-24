@@ -1,0 +1,13 @@
+{
+  "baseline_accuracy": NaN,
+  "finetuned_accuracy": 0.6667,
+  "improvement": NaN,
+  "test_set_size": 30,
+  "label_map": {
+    "Discussion": 0,
+    "Community": 1,
+    "Esports": 2,
+    "Gameplay": 3
+  },
+  "model": "distilbert-base-uncased"
+}
