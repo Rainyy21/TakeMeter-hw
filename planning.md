@@ -13,8 +13,9 @@
 
 ## 3. The Cold, Hard Edge-Case Rules (Drafted During Labeling)
 As we manually reviewed the 200 posts, our initial taxonomy broke down on complex text. We established the following strict tie-breaking rules:
-* **Rule 1 (Sarcasm/Vent vs. Fact):** If a post uses heavy exaggeration but explicitly asks a troubleshooting question at the end, it must be categorized under [Label A], not [Label B].
-* **Rule 2 (Topic vs. Structure):** If a post mentions a product keyword but its primary structural intent is a meme or a joke, it goes to [Label C].
+* **Rule 1 (Vent vs. Update):** If a post complains about a patch or balance change but does not propose a fix or ask a troubleshooting question, it goes to **Discussion**, not **Community**. **Community** is reserved for posts that announce or share factual news about updates.
+* **Rule 2 (Pro Play vs. Personal Highlight):** If a post mentions a professional team, tournament, or roster move, it goes to **Esports** even if it also shows a clip. **Gameplay** is reserved for posts whose primary subject is the poster's own (non-pro) matches.
+* **Rule 3 (Meta Talk vs. How-To):** If a post is framed as a guide, build, or "how to play X" walkthrough, it goes to **Gameplay**. General opinions about the meta or champion strength go to **Discussion**.
 
 ## 4. Evaluation Metrics Reasoning
 We selected **Macro F1-Score** as our primary evaluation metric alongside raw **Accuracy**. 
